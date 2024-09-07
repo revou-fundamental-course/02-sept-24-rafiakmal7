@@ -1,1 +1,67 @@
-/*INI CSS 
+/*INI CSS  */
+.main-header{
+    text-align: center;
+}
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-btn {
+    height: 30px;
+    border: none;
+    border-radius: 0px;
+}
+
+.green-color {
+    background-color: #04cbdf;
+}
+
+.yellow-color {
+    background-color: #0adad2;
+}
+
+.segitiga-header {
+    padding-bottom: 30px;
+    border: 1px solid;
+    padding-top: 30px;
+    margin: 0px;
+    background: aqua;
+    text-align: center;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    border: none;
+    background-image: url(https://cilacapklik.com/wp-content/uploads/2021/07/Rumus-Segitiga-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

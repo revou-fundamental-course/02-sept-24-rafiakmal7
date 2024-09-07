@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css\styles.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css\styles.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1>WELCOME TO KATIK</h1>
+      <p>hai sobat selamat datang di katik :)</p>
+    </header>
+
+    <main>
+      <section class="selection-content">
+        <button href="#" type="button" class="selection-btn green-color">
+          segitiga
+        </button>
+        <button href="#" type="button" class="selection-btn yellow-color">
+          jajar genjang
+        </button>
+      </section>
+
+      <section>
+        <header>
+          <h1 class="segitiga-header">luas segitiga</h1>
+        </header>
+        <article class="luas-segitiga-content">
+          <div class="luas-segitiga-img"></div>
+          <p>Rumus Luas Segitiga</p>
+        </article>
+
+        <hr />
+
+        <form>
+          <header class="luas-segitiga-form-header">
+            hitung luas segitiga
+          </header>
+          <div class="input-wrapper">
+            <label for="panjang-alas">panjang alas :</label>
+            <input id="panjang-alas" type="number" />
+          </div>
+          <div class="input-wrapper">
+            <label for="tinggi">tinggi :</label>
+            <input id="tinggi" type="number" />
+          </div>
+          <p id="result">hasil perhitungan</p>
+          <button>hitung</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
